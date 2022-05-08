@@ -1,5 +1,3 @@
-import { type } from 'os'
-
 export default {
   name: 'comment',
   title: 'Comment',
@@ -28,7 +26,7 @@ export default {
       description: 'Reference the Tweet the comment is associated to:',
       type: 'reference',
       to: {
-        type: tweet,
+        type: 'tweet',
       },
     },
   ],
