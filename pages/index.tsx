@@ -1,4 +1,4 @@
-import type { GetServerSideProps, NextPage } from 'next'
+import type { GetServerSideProps } from 'next'
 import Head from 'next/head'
 import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
@@ -21,7 +21,7 @@ const Home = ({ tweets }: Props) => {
       <main className="grid grid-cols-9">
         <Sidebar />
 
-        <Feed />
+        <Feed tweets={tweets} />
 
         <Widgets />
       </main>
