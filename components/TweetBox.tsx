@@ -33,6 +33,7 @@ function TweetBox({ setTweets }: Props) {
 
     setImage(imageInputRef.current.value)
     imageInputRef.current.value = ''
+
     setImageUrlBoxIsOpen(false)
   }
 
