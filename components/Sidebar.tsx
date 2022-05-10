@@ -30,9 +30,9 @@ function Sidebar() {
       <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
       <SidebarRow Icon={CollectionIcon} title="Lists" />
       <SidebarRow
-        onClick={session ? signOut : signIn}
         Icon={UserIcon}
         title={session ? 'Sign Out' : 'Sign In'}
+        onClick={session ? signOut : signIn}
       />
       <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
     </div>
