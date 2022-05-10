@@ -1,10 +1,4 @@
-import React, {
-  Dispatch,
-  SetStateAction,
-  useRef,
-  useState,
-  useEffect,
-} from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { Comment, CommentBody, Tweet } from '../typings'
 import TimeAgo from 'react-timeago'

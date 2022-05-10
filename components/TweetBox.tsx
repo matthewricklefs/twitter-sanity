@@ -12,7 +12,7 @@ import { fetchTweets } from '../utils/fetchTweets'
 import toast from 'react-hot-toast'
 
 interface Props {
-  setTweets: Dispatch<SetStateAction<Tweet>[]>
+  setTweets: Dispatch<SetStateAction<Tweet[]>>
 }
 
 function TweetBox({ setTweets }: Props) {
